@@ -1,0 +1,267 @@
+/*home page 1*/
+.hero_home {
+    position: relative;
+    background: url("/src/assets/hero/hero-1.jpg")no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+.hero_home .price_badge {
+    background: url("src/assets/hero/price-badge-yellow.png")no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+}
+
+.hero_home .badge_text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero_home .badge_text .h4_xs {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero_home .badge_text .h3_lg {
+    font-size: 2.875rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.hero_home .hero_text h1 {
+    font-family: var(--lilita-font);
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.hero_home .hero_text h2 {
+    font-family: var(--lilita-font);
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.hero_home .hero_text p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/* Media query  */
+
+@media(max-width:767px) {
+    .hero_home .hero_text h1 {
+        font-size: 77px;
+    }
+}
+
+
+/*Home page 2*/
+
+.about_section {
+    padding-top: 80px;
+    padding-bottom: 300px;
+    background: url("/src/assets/about/about-1.jpg")no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.about_section h2 {
+    font-size: 3.5rem;
+
+}
+
+.about_section p {
+    color: gray;
+    padding: 20px 30px;
+    font-size: 19px;
+}
+
+.about_Wrapper {
+    background: linear-gradient(to right, rgb(242, 63, 63), rgb(253, 253, 94));
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.about_icon img {
+    max-width: 25%;
+    align-items: center;
+}
+
+.about_box h4 {
+    color: whitesmoke;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5008px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about_box h3 {
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: 0.5008px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about_box p{
+   padding:0 20px;
+}
+
+@media (max-width) {
+    .about_box h2{
+        font-size: 2.5rem;
+    }
+    .about_section{
+        padding: 20px 0;
+
+    }
+    .about_box p{
+        padding: 0;
+    }
+}
+
+/*crads*/
+.menu_page{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.menu_page .card-img-top{
+    transition: all 500ms ease-in-out;
+}
+.menu_page h2{
+    font-size: 3.5rem;
+    color: red;
+}
+.menu_page .para{
+    color: gray;
+    padding: 10px 100px;
+    font-size: 19px;
+
+}
+.menu_page .item_rating{
+    color: gold;
+    padding-right: 5px;
+}
+
+.menu_page .Wishlist i{
+ color: gray;
+font-size: 20px;
+cursor: pointer;
+}
+.menu_page .Wishlist i:hover{
+    color: red;
+}
+.menu_page .card-title{
+    font-family: var(--oswald-font);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.menu_page .card-text{
+    color: gray;
+    font-size: 15px;
+}
+
+.menu_page .menu_price{
+    display: inline-block;
+    padding: 7px 12px ;
+    border-radius: 4px;
+}
+.menu_page .menu_price h5{
+    /* color: yellow; */
+    font-size: 1rem;
+
+}
+.menu_page .Add_to_cart a{
+    background-color: yellow;
+    display:  inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 700;
+    padding: 8px 14px;
+    border-radius: 4px;
+    opacity: 0;
+    transform: translate(100px);
+
+}
+.menu_page .card:hover .card-img-top{
+    transform: scale(1.1);
+}
+.menu_page .card:hover a{
+    transform:translateY(0px);
+    opacity: 1;
+}
+.menu_page .ads_box{
+    text-align: right;
+    padding: 80px 35px 50px;
+    border-radius: 6px;
+}
+.menu_page .ads_img1{
+    background: url("../../assets/menu//ads-1.jpg")no-repeat center center;
+    background-size: cover;
+}
+.menu_page .ads_img2{
+    background: url("../../assets/menu//ads-2.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.menu_page .ads_box h4{
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: brown;
+}
+.menu_page .ads_box h5{
+    font-size: 2.375rem;
+    color: brown;
+}
+.menu_page .ads_box h4{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/*home 4*/
+
+.Promotion_Section{
+    padding-top: 60px ;
+    padding-bottom: 60px;
+    background-color: lightgrey;
+}
+.Promotion_Section h2{
+    font-size: 3.25rem;
+    margin-bottom: 25px;
+}
+.Promotion_Section p{
+    font-size: 1.25rem;
+}
+.Promotion_Section ul{
+    padding-left: 15px;
+}
+
+/* bg_parallax_scroll*/
+.bg_parallax_scroll{
+    background: url("../../assets/parallax/bg.jpg")no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+@media (max-width:1200px) {
+    .Promotion_Section h2{
+        font-size: 2.25rem;
+    }
+}
